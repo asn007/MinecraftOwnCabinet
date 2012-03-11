@@ -1,0 +1,664 @@
+/* Template created by CENTROARTS.com | Author: Rumin Sergey | URL: http://centroarts.com */
+
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; }
+body { background-color: #1d1d1d; word-wrap: break-word; }
+
+h1, h2, h3, h4, h5 { font-weight: normal; line-height: normal; }
+h1 { font-size: 1.5em; } h2 { font-size: 1.4em; } h3 { font-size: 1.3em; } h4 { font-size: 1.2em; } h5 { font-size: 1.1em; }
+
+a { color: #202020; text-decoration: none; }
+a:hover { color: #505050;text-decoration: underline; }
+a img  { border: 0 none; }
+
+input, textarea, select, button, body { font: normal 13px/17px Tahoma, "Trebuchet MS", Helvetica, sans-serif; }
+input, textarea, select, button, a { outline: none; }
+
+p { margin-bottom: 0.4em; }
+hr { border: 0 none; border-top: 1px solid #dbe8ed; height: 1px; }
+ul { margin: 0 0 18px 2em; list-style: disc outside; }
+ol { margin: 0 0 18px 2.1em; list-style: decimal; }
+.online_img{width:200px; text-align:center; background: #80b911;height:18px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-khtml-border-radius:3px;border-bottom:1px solid #fff; text-shadow: #dddddd 0 1px;}
+.reset, .reset li { list-style: none; padding: 0; margin: 0; }
+.reset1, .reset li { list-style: none; padding: 0; margin: 0;float:right; }
+.otstup {margin-left:10px; margin-top:5px; color: #}
+.titlecab {float:left;margin-left:5px; margin-top:5px; }
+.btl1 { border-bottom: 1px solid #dedede;font-size:14px; font-weight:bold;color: #2b2b2b;text-shadow: 0 1px #fff; float:left;}
+.icons12 {vertical-align: middle; margin-bottom:2px;}
+.previewimg{ margin:5px;width:160px;}
+.skinfon{width:170px;height:162px; display:block;box-shadow:inset rgba(0,0,0,0.3) 0px 1px 2px;-webkit-box-shadow:inset rgba(0,0,0,0.3) 0px 1px 2px;-moz-box-shadow:inset rgba(0,0,0,0.3) 0px 1px 2px;-khtml-box-shadow: inset rgba(0,0,0,0.3) 0px 1px 2px; border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-khtml-border-radius:3px;background:#a0b0e0;}
+.maintable{ vertical-align:top; -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2); box-shadow: 0 2px 4px rgba(0,0,0,0.2);border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-khtml-border-radius:3px;background:#f1f0ed;}
+.maininfo{width:100%;background:#a7a7a7;}
+.clr { clear: both; }
+.thide, .htmenu span { overflow: hidden; display: block; height: 0; line-height: normal; }
+table.userstop, table.pm, table.tableform, table.calendar { border-collapse: collapse; border-spacing: 0; }
+.lcol, .rcol, form { display: inline; }
+.lcol { float: left; } .rcol { float: right; }
+.small { font-size: 0.85em; }
+.green { color: #61a117; }
+
+.wrapper { max-width: 1120px; width:92%; text-align:left; margin: 0 auto;}
+.wwide { width: 100%; }
+.wrapper, .wwide { min-width: 990px; }
+
+.btn_reglog, .radial, #loading-layer, #dropmenudiv, .baseform, .ui-dialog, .mass_comments_action, .bbcodes, .ui-button { -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+.icons {vertical-align: middle; padding-left:4px;}
+.icons1 {vertical-align: middle;}
+.name { padding-left:15px; margin-top:5px;}
+.dobav {float:right; margin-right:10px;margin-top:5px;}
+/*---Форма входа---*/
+.pole {
+margin-top:5px; margin-left:10px; margin-right:10px;
+height: 20px;
+width: 200px;
+border: 1px solid #ccc;
+-moz-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+-webkit-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+ border-radius: 3px;
+ }
+ .message
+{ 
+margin-top:10px;
+-webkit-background-size: 40px 40px;
+                -moz-background-size: 40px 40px;
+                background-size: 40px 40px;
+                background-image: -webkit-gradient(linear, left top, right bottom,
+                                                        color-stop(.25, rgba(255, 255, 255, .05)), color-stop(.25, transparent),
+                                                        color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .05)),
+                                                        color-stop(.75, rgba(255, 255, 255, .05)), color-stop(.75, transparent),
+                                                        to(transparent));
+                background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                                                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                                                        transparent 75%, transparent);
+                background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                                                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                                                        transparent 75%, transparent);
+                background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                                                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                                                        transparent 75%, transparent);
+                background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                                                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                                                        transparent 75%, transparent);
+                background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+                                                        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+                                                        transparent 75%, transparent);
+                 -moz-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+                 -webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+                 box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+				 
+                 border: 1px solid;
+				 
+                 color: #fff;
+                 padding: 5px 5px 5px 5px;
+				 margin-bottom: 10px;
+				 text-shadow: 0 1px 0 rgba(0,0,0,.5);
+                 -webkit-animation: animate-bg 5s linear infinite;
+                 -moz-animation: animate-bg 5s linear infinite;
+				 
+}
+
+.info
+{
+                 background-color: #4ea5cd;
+                 border-color: #3b8eb5;
+}
+
+.error
+{
+                 background-color: #de4343;
+                 border-color: #c43d3d;
+}
+
+.warning
+{
+                 background-color: #eaaf51;
+                 border-color: #d99a36;
+}
+
+.success
+{
+                 background-color: #61b832;
+                 border-color: #55a12c;
+}
+
+.message h3
+{
+                 margin: 0 0 5px 0;
+				}
+
+.message p
+{
+                 margin: 0;
+}
+
+@-webkit-keyframes animate-bg
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+
+@-moz-keyframes animate-bg
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+       background-position: -80px 0;
+    }
+}
+/*---Форма входа---*/
+/*---Мониторинг---*/
+.pechkaoff{
+	height:96px;
+	width:112px;
+	background: url(../images/pechkaoff.png) no-repeat;
+}
+
+.pechkaon{
+	height:96px;
+	width:104px;
+	background: url(../images/pechkaon.gif) no-repeat;
+}
+/*---header---*/
+.pagebg {padding-top:4%; background: url("http://mc-party.ru/templates/Pisces/images/bg_main.png") repeat; }
+#headbar { background: url("http://mc-party.ru/templates/Pisces/images/headbar.png") repeat-x 0 100%; padding-bottom: 4px; top: 0; left: 0; position: absolute; width: 100%; }
+
+	/*---logotype---*/
+	#header { height: 87px; background: url("http://mc-party.ru/templates/Pisces/images/fon_top.png"); }
+	#header .container { padding: 0 15px 0 295px; }
+	#header h1 { margin-left: -295px; width: 295px; float: left; text-align: center; }
+		#header h1 a { display: block; width: 265px; padding-top: 43px; margin: 23px auto 0 auto; background: url("http://mc-party.ru/templates/Pisces/images/logotype.png"); }
+	
+	#header .rcol { padding-top: 28px; width: 100%; }
+
+	/*---Speedbar---*/
+	#speedbar { height: 38px; background: rgb(41, 58, 10); background: rgba(0, 0, 0, 0.7); }
+		#speedbar .container { overflow: hidden; padding: 0 15px; }
+		#speedbar p { margin: 10px 0 0 0; padding-left: 17px; color: #cacec2; font-size: 0.85em; background: url("http://mc-party.ru/templates/Pisces/images/speedbar.png") no-repeat -1px 50%; }
+			#speedbar p a { color: #fff; } 
+
+	/*---headlinks---*/
+	.headlinks { margin-top: 31px; overflow: hidden; }
+	.headlinks ul, .headlinks ul li, .headlinks, ul.loginbox li { float: left; }
+	.headlinks ul { line-height: 22px; margin-left: -2px; }
+		.headlinks ul li { background: url("http://mc-party.ru/templates/Pisces/images/headlinks.png") no-repeat 0 50%; padding: 0 10px 0 11px; }
+		.headlinks ul a, .lvsep, .lvsep a { color: #fff; }
+			.headlinks ul a:hover, .lvsep a:hover { color: #ffff00; }
+
+/*---login---*/
+.loginbox { display: inline; }
+.loginbox ul.loginbox { margin-top: 30px; float: right; height: 26px; }
+	ul.loginbox li { margin-left: 10px; line-height: 23px; }
+	.loginbtn a { color: #e0e0e0; text-shadow: 0 1px 0 #383838; text-decoration: none; display: block; width: 61px; height: 26px; text-align: center; background: url("http://mc-party.ru/templates/Pisces/images/loginbtn.png") no-repeat; }
+		.loginbtn a:hover { color: #ffffa0; text-shadow: 0 1px 0 #3f3f28; background-position: 0 -26px; }
+
+.logform li.lfield { margin-bottom: 10px; }
+.logform li.lbtn { text-align: center; }
+	.logform li.lfield input { width: 265px; }
+		.logform li.lfchek input { width: 13px; border: none; background: none; }
+		.logform li.lfchek label { display: inline; margin-bottom: 0.2em; }
+
+/*---toolbar---*/
+#toolbar { position: reletive; z-index: 111; height: 40px; padding: 0 0px 0 5px; float:left }
+	#topmenu { line-height: 27px; margin-top: 19px; text-shadow: 0 1px 0 #73a519; }
+		#topmenu li, #topmenu a, #topmenu a b { height: 28px; float: left; }
+			#topmenu a { text-decoration: none; margin-right: 1px; color: #fff; background: url("http://mc-party.ru/templates/Pisces/images/topmenu.png") no-repeat 0 -999px; }
+				#topmenu a b { cursor: pointer; padding: 0 10px; background: url("http://mc-party.ru/templates/Pisces/images/topmenu.png") no-repeat 0 -999px; }
+
+				#topmenu a:hover { text-shadow: 0 1px 0 #55820d; background-color: #649711; background-position: 0 0; }
+					#topmenu a:hover b { background-position: 100% -28px; }
+				
+				#topmenu .sublnk a { background-position: 0 -112px; }
+					#topmenu .sublnk a b { padding-right: 25px; background-position: 100% -140px; }
+
+				#topmenu .sublnk a:hover, #topmenu .sublnk.selected a { padding-bottom: 2px; background-color: #649711; background-position: 0 -56px; }
+					#topmenu .sublnk a:hover b, #topmenu .sublnk.selected a b { padding-right: 25px; background-position: 100% -84px; }
+
+				/*---SubMenu---*/
+				#topmenu .sublnk { position: relative; }
+				#topmenu li.sublnk ul { background-color: #649711; width: 220px; margin: 0; top: 30px; left: 0; position: absolute; z-index: 1999; display: none;
+					opacity:0.9; -moz-opacity:0.9; filter:alpha(opacity=90);
+				}
+				#topmenu li.sublnk ul li a, #topmenu li.sublnk ul li, #topmenu li.sublnk ul li a b { background: none; float: none; height: auto; display: block; line-height: normal; text-transform: none; }
+				#topmenu li.sublnk ul li { padding: 0; }
+				#topmenu li.sublnk ul li a { text-shadow: none; color: #fff; padding: 6px 0 !important; width: 100%; border-bottom: 1px solid #71aa15; }
+				#topmenu li.sublnk ul li a:hover { background-color: #6fa614; }
+
+	/*---search---*/
+	.searchbar { margin-top: 20px; float: right; width: 206px; height: 26px; background: #293a0a url("http://mc-party.ru/templates/Pisces/images/search.png") no-repeat; }
+		.searchbar li { float: left; height: 26px; }
+		.searchbar .lfield { width: 174px; padding-left: 5px; overflow: hidden; }
+			.searchbar .lfield input { font-size: 0.85em; color: #85bf1f; float: left; height: 15px; width: 170px; border: 0 none; background: none; margin-top: 5px; }
+		
+		.searchbar .lbtn input { width: 27px; height: 26px; background: #89c523 url("http://mc-party.ru/templates/Pisces/images/search.png") no-repeat 100% 0; }
+			.searchbar .lbtn input:hover { background-position: 100% -26px; }
+
+/*---Shadows---*/
+.shadlr { width: 100%; background: url("http://mc-party.ru/templates/Pisces/images/shadlr.png") no-repeat; }
+	.shadlr .shadlr { background-position: 100% 0; }
+		
+	.container { position:relative;}
+				
+/*---BodyTemplate---*/
+.wsh { padding-right: 8px; overflow: hidden; height: 0px; font: 1px/1px sans-serif; background:  url("http://mc-party.ru/templates/Pisces/images/wsh.pn") no-repeat 100% -8px; }	
+	.wsh .wsh { background-position: 0 0; padding: 0; }
+
+	#vsepfoot { background-position: 100% -24px; }
+		#vsepfoot .wsh { background-position: 0 -16px; }
+
+	.vsep { background: #f1f0ed url("http://mc-party.ru/templates/Pisces/images/vsep.png") repeat-y; padding: 0 0 0 270px; }
+		.vsep .vsep { padding: 0; width: 100%; background: #fff; }
+
+		#sidebar { padding: 6px 0 0 13px; width: 257px; margin: 0 0 0 -270px; }
+		#midside { padding: 6px 0 0 0; width: 100%; overflow: hidden; position:reletive; }
+			#midside img { max-width: 660px; }
+
+/*---Slider---*/
+.slider { height: 312px; position: relative; }
+.slider .container { padding-bottom: 2px; background: url("http://mc-party.ru/templates/Pisces/images/slidershd.png") repeat-x 50% 100%; }
+#slides, .slides_container, .slider .container { height: 271px; }
+.slides_container { position: relative; background: #000 url("http://mc-party.ru/templates/Pisces/images/loading.gif") no-repeat 50% 50%; width: 100%; overflow: hidden; }
+	.pagination { text-align: center; height: 20px; margin: 0; padding: 11px 0 0 0; list-style: none; }
+		.pagination li { display: inline-block; width: 19px; height: 19px;
+			zoom: 1;
+			*display: inline;
+		}
+		.pagination li a { background: url("http://mc-party.ru/templates/Pisces/images/pagination.png") no-repeat; display: block; width: 19px; padding-top: 19px; height: 0; overflow: hidden; }
+			.pagination li a:hover { background-position: -19px 0; }
+			.pagination li.current a { background-position: -38px 0; }
+
+	.slider .dleft, .slider .dright { background: url("http://mc-party.ru/templates/Pisces/images/slider.png") no-repeat; height: 273px; width: 23px; position: absolute; top: 0; }
+		.slider .dleft { left: 0; background-position: 0 0; }	.slider .dright { right: 0; background-position: -23px 0; }
+
+/*---buttons---*/
+.fbutton, .vresult { border: 0 none; background: none; cursor: pointer;}
+	.fbutton { color: #e0e0e0; text-shadow: 0 1px 0 #383838; text-decoration: none;  width: 110px; height: 40px; text-align: center; background: url("http://mc-party.ru/templates/Pisces/images/fbuttonp.png") no-repeat; font-weight:bold;}
+	.fbutton:hover { color: #ffffa0; text-shadow: 0 1px 0 #3f3f28; background-position: 0 -40px;font-weight:bold; }
+	button.fbutton span { cursor: pointer; }
+	
+
+
+/*---blocks---*/
+.block { position: relative; background: #fff url("http://mc-party.ru/templates/Pisces/images/block.png") repeat-y -244px 0; margin: 0 0 15px 0; width: 240px; padding: 0 2px; }
+	.block .dtop, .block .dbtm { background: url("http://mc-party.ru/templates/Pisces/images/block.png") no-repeat; height: 6px; position: absolute; left: 0; width: 244px; overflow: hidden; font: 1px/1px sans-serif; }
+		.block .dtop { top: -1px; }
+		.block .dbtm { background-position: -488px 100%; height: 8px; bottom: -3px; }
+		
+		.block .btl { border-bottom: 1px solid #dedede; height: 45px; line-height: 45px; padding: 0 13px; font-size: 1.3em; }
+		.block .dcont { background: url("http://mc-party.ru/templates/Pisces/images/greytop.png") repeat-x 0 2px; padding: 13px; }
+
+	/*---LeftMenu---*/
+	.leftmenu { background-color: #2a2a2a; }
+		.leftmenu a { color: #fff; }
+		
+		.lmenu { border-bottom: 1px solid #404040; }
+		.lmenu a, .lmenu a span { cursor: pointer; display: block; }
+			.lmenu a { text-shadow: 0 1px 0 #1f1f1f; text-decoration: none; background: url("http://mc-party.ru/templates/Pisces/images/lmenuhov.png") no-repeat 0 -999px; padding: 7px 0 8px 0; width: 100%; border-top: 1px solid #404040; border-bottom: 1px solid #1e1e1e; }
+				.lmenu a span { padding: 0 13px; }
+
+			.lmenu a:hover { text-shadow: 0 1px 0 #5a8e10; border-top: 1px solid #99d134; border-bottom: 1px solid #243a07; background: #66a815 url("http://mc-party.ru/templates/Pisces/images/lmenuhov.png") repeat-x; }
+		
+		.leftmenu .dcont { background: #505050 url("http://mc-party.ru/templates/Pisces/images/lmenucont.jpg") no-repeat; }
+
+	/*---Votes---*/
+	#bvote .btl h4 { margin-top: 12px; float: left; font-size: 1em; }
+		#bvote .btl .vresult { margin-top: 11px; float: right; }
+		.vtitle { margin-top: -20px; padding: 10px 0 0 0; display: block; color: #fff; position: relative; background: #7e88bf url("http://mc-party.ru/templates/Pisces/images/vtitle.png") no-repeat; }
+		.vtitle b { width: 194px; padding: 0 10px 24px 10px; display: block; background: url("http://mc-party.ru/templates/Pisces/images/vtitle.png") no-repeat -214px 100%; }
+
+	.vresult { width: 31px; height: 25px; padding: 0; background: url("http://mc-party.ru/templates/Pisces/images/vresult.png") no-repeat 100% 0; }
+		.vresult:hover { background-position: 0 -25px; }
+
+		.votefoot { text-align:center; padding-top: 5px; padding-bottom:5px; border-top: 1px solid #d7d7d7; background: #f7f7f7 url("http://mc-party.ru/templates/Pisces/images/votefoot.png") repeat-x 0 -1px; }
+		.vote, #dle-poll-list div { clear: both; padding: 2px 0 2px 2px; }
+		.vote input, #dle-poll-list div input { vertical-align: middle; margin: 0; padding: 0; width: 14px; height: 14px; margin-right: 4px; }
+		#dle-poll-list { text-align: left; }
+		.pollfoot { padding-top: 14px; background: url("http://mc-party.ru/templates/Pisces/images/ussep.png") no-repeat 50% 0; }
+		.pollhead { margin-bottom: 10px; color: #6faf18; }
+	
+	/*---Informer---*/
+	.block2 { margin: 0 0 15px 2px; width: 240px; background: #dfddd9 url("http://mc-party.ru/templates/Pisces/images/block2.png") no-repeat; }
+		.block2 .dtop { background: url("http://mc-party.ru/templates/Pisces/images/block2.png") no-repeat -240px 100%; }
+		.block2 .dcont { margin: 0 13px; padding: 13px 0; }
+		.block2 .btl { margin-bottom: 10px; }
+
+		.informer { padding: 13px 0 0; margin-bottom: 13px; background: url("http://mc-party.ru/templates/Pisces/images/informer.png") repeat-x; }
+			.informer p a { color: #56840c; }
+
+	/*---Popular news---*/
+	#popular .btl { border-bottom: 1px solid #a6a6a6; }
+	#popular .dcont { border-top: 2px solid #9ace45; background: #7db91c url("http://mc-party.ru/templates/Pisces/images/poplbg.png") repeat-y; }
+		#popular ul { margin: 0; list-style: none; }
+			#popular li { padding-left: 8px; background: url("http://mc-party.ru/templates/Pisces/images/barrow.png") no-repeat 0 7px; }
+			#popular a { padding: 1px 0 4px 0; display: block; width: 100%; color: #e8f3d4; background: url("http://mc-party.ru/templates/Pisces/images/popline.png") no-repeat 0 100%; }
+			#popular a:hover { color: #fff; }
+
+/*---footbox---*/
+.footbg { min-height: 140px; padding-bottom: 18px; background: url("http://mc-party.ru/templates/Pisces/images/pagebgfoot.png") repeat-x 50% 100%; }
+.ftbar { height: 71px; background: url("http://mc-party.ru/templates/Pisces/images/ftbar_right.png") no-repeat 100% 0; }
+	.ftbar .ftbar { overflow: hidden; margin: 0 15px; background: url("http://mc-party.ru/templates/Pisces/images/ftbar_left.png") no-repeat; }
+
+	#fmenu, #fmenu li { float: left; }
+	#fmenu { margin: 28px 0 0 -11px; }
+		#fmenu li { padding: 0 10px; border-left: 1px solid #477511; }
+			#fmenu li a { color: #fff; }
+
+	/*---change-skin---*/
+	#change-skin { background: #273709 url("http://mc-party.ru/templates/Pisces/images/change-skin.png") no-repeat; float: right; margin-top: 21px; width: 206px; height: 32px; }
+	.change-skin { padding: 5px 6px 0 5px; height: 21px; }
+		.change-skin .lcol { color: #fff; padding-left: 2px; line-height: 20px; font-size: 0.85em; }
+		.change-skin .rcol { padding: 2px 0 0 2px; width: 115px; height: 19px; background: #fff url("http://mc-party.ru/templates/Pisces/images/change-skin.png") no-repeat 0 -32px; }
+			.change-skin select { font-size: 0.85em; background-color: #fff; width: 113px; height: 17px; border: 0 none; }
+
+	/*---blocktags---*/
+	.blocktags { padding: 13px 15px; border: 1px solid #9ec764; }
+		.blocktags a, .blocktags { color: #e6f4d5; }
+		.blocktags a:hover { color: #fff; }
+
+/*---footer---*/
+.footer { min-height: 87px; background:url("http://mc-party.ru/templates/Pisces/images/fon_top.png"); }
+	.footer .wrapper { position: absolute;padding-top: 20px; }
+	.footer .container { padding-top: 20px; margin: 0 0 0 30px; padding-right: 0px; }
+
+	.footer h2, .counts { display: inline; }
+		.footer h2 a { background: url("http://mc-party.ru/templates/Pisces/images/logofoot.png"); float: left; width: 34px; padding-top: 34px; margin-right: 15px; }
+		
+		.copyright { color: #fff; float: left; }
+		.copyright a { color: #fff; }
+
+    .banners {float:right; padding-top:28px; padding-right:30px;
+         }		
+	.counts ul { display: inline; float:right; }
+		.counts ul li {  width: 88px; height: 31px; margin-left: 5px; opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50); }
+		.counts ul li:hover { opacity: 1.0; -moz-opacity: 1.0; filter:alpha(opacity=100); }
+
+
+
+/*---Центральная часть контента---*/
+.dpad { margin: 0 15px;}
+
+/*---Center Banner---*/
+.hban { background: url("http://mc-party.ru/templates/Pisces/images/hbanleft.png") no-repeat 0 100%; }
+	.hban .hban { padding-bottom: 38px; background: url("http://mc-party.ru/templates/Pisces/images/hbanright.png") no-repeat 100% 100%; }
+
+/*---Сортировка новостей---*/
+.sortn { margin: 0 0 13px 0; height: 33px; background: url("http://mc-party.ru/templates/Pisces/images/sortn.png") no-repeat; }
+	.sortn .sortn { text-align: center; line-height: 29px; padding: 0 15px; background-position: 100% -33px; font-size: 0.85em; margin: 0; }
+	.sortn img { vertical-align: middle; }
+
+/*---Краткая содержимое---*/
+.base { overflow: hidden; border-bottom: 1px solid #ccc; background: url("http://mc-party.ru/templates/Pisces/images/basefoot.png") repeat-x 0 100%; }
+.bsep { font: 1px/1px sans-serif; height: 25px; background: url("http://mc-party.ru/templates/Pisces/images/bsep.png") repeat-x; }
+	.base .btl { margin-bottom: 2px; }
+		.base .btl a, .base .btl { color: #202020; }
+
+	.binfo, .argcat { color: #cccccc; padding-bottom: 8px; }
+	.argcat { padding-left: 10px; background: url("http://mc-party.ru/templates/Pisces/images/garrow.png") no-repeat 1px 5px; }
+	.bottominfo {color: #cccccc; }
+
+	.base .maincont { text-align: justify; padding-top: 14px; border-top: 1px solid #cfcfcf; background: url("http://mc-party.ru/templates/Pisces/images/maincont.png") repeat-x; }
+	.argcoms b { text-align: center; margin: 0 0 6px 10px; color: #fff; text-shadow: 0 1px 0 #5f9d06; font: bold 2em/50px Arial, Sans-serif; float: right; width: 50px; height: 60px; background: url("http://mc-party.ru/templates/Pisces/images/argcoms.png") no-repeat 100% 0; }
+		.argcoms a { text-decoration: none; color: #fff; }
+
+	.maincont img { padding: 5px;border: none; }
+
+	.editdate { color: #888785; border-bottom: 1px solid #f1f0ed; padding-top: 10px; margin-bottom: 2px; }
+	.storenumber, .maincont, .berrors, .basecont, .basenavi { margin-bottom: 2px; }
+	
+	/*---Подробнее---*/
+	.mlink { margin-bottom: 7px; height: 35px; background: #f1f0ed url("http://mc-party.ru/templates/Pisces/images/mlink.png") no-repeat; }
+		.mlink .mlink { margin: 0; padding: 4px 3px 0 7px; height: 31px; background: url("http://mc-party.ru/templates/Pisces/images/mlink.png") no-repeat 100% -35px; }
+
+	.argmore a, .argmore a b, .argpoll a, .argpoll a b { float: left; height: 28px; background: url("http://mc-party.ru/templates/Pisces/images/argmore.png") no-repeat; }
+	.argpoll a, .argpoll a b { background: url("http://mc-party.ru/templates/Pisces/images/argpoll.png") no-repeat; }
+	.argmore a, .argpoll a {color: #e0e0e0; text-shadow: 0 1px 0 #383838; margin-left: 5px; float: right;  line-height: 24px;  text-decoration: none; }
+		.argmore a b, .argpoll a b  { cursor: pointer; padding: 0 14px; background-position: 100% -28px; }
+
+		.argpoll a { background-color: #fff; color: #61a117; text-shadow: 0 1px 0 #fff; }
+		.argpoll a b { padding: 0 38px 0 14px; }
+
+		.argmore a:hover, .argpoll a:hover {color: #ffffa0; text-shadow: 0 1px 0 #3f3f28; background-position: 0 -56px; }
+			.argmore a:hover b, .argpoll a:hover b { background-position: 100% -84px; }
+	
+	.isicons { display: inline; }
+		.isicons li { float: left; width: 19px; height: 19px; margin-top: 4px; }
+		.isicons li img { display: block; } 
+
+	/*---ratebox---*/
+	.rate { width: 85px; height: 17px; overflow: hidden; }
+	.mlink .rate { padding-top: 5px; }
+	
+	/*---Tags---*/
+	.btags { background: #79b61b url("http://mc-party.ru/templates/Pisces/images/menu_fon.png") repeat-x; height: 33px; border: 1px solid #000000 
+            -moz-border-radius: 5px 5px 0px 0px;
+	        -webkit-border-radius: 5px 5px 0px 0px;
+	        border-radius: 5px 5px 0px 0px;	}
+		.btags .btags { color: #f2ffde; line-height: 32px; padding: 0 10px; background-color: transparent; background-position: 100% -33px; }
+		.btags a { color: #fff; }
+
+	.fullstory { border: 0 none; }
+		.mlinktags { background-position: 0 -70px; }
+		.mlinktags .mlink { background-position: 100% -105px; }
+
+/*---А также:---*/
+.related { background: #484848 url("http://mc-party.ru/templates/Pisces/images/relatedfoot.png") no-repeat 0 100%; }
+.related .dtop { padding: 0 8px; height: 30px; background: url("http://mc-party.ru/templates/Pisces/images/relatedtop.png") repeat-x; }
+	.related .dtop span, .related .dtop span b { float: left; height: 30px; background: url("http://mc-party.ru/templates/Pisces/images/related.png") no-repeat 100% -30px; }
+	.related .dtop span { line-height: 30px; color: #659928; background-color: #fff; background-position: 0 0; position: relative; margin-top: -1px; }
+		.related .dtop span b { padding: 0 31px 0 17px; }
+
+	.related ul { padding: 8px 15px 13px 15px; color: #fff; }
+	.related ul a { color: #fff; }
+
+/*---Вывод ошибок---*/
+.berrors { color: #483608; padding: 15px 15px 15px 72px; background: #faf1c2 url("http://mc-party.ru/templates/Pisces/images/berrors.png") no-repeat 9px 10px; }
+	.berrors a { color: #a85003; }
+
+/*---Заголовок страниц---*/
+.heading { font-size: 1.5em; line-height: normal; color: #202020; margin-bottom: 10px; }
+
+/*---Комментарии---*/
+.bcomment { border-top: 3px solid #484848; padding-left: 130px; padding-bottom: 15px; }
+	.bcomment .lcol { border-top: 1px solid #b6b5b3; background: #f1f0ed url("http://mc-party.ru/templates/Pisces/images/bcomleft.png") repeat-x 0 100%; color: #707070; margin-left: -130px; padding: 14px 0 10px 15px; width: 115px; }
+		.bcomment .lcol ul { font-size: 0.85em; }
+			.bcomment .lcol .avatar { width: 100px; overflow: hidden; margin-bottom: 4px; }
+			.bcomment .lcol .avatar img { width: 100px; display: block; }
+	
+	.bcomment .rcol { padding-top: 15px; background: url("http://mc-party.ru/templates/Pisces/images/bcomright.png") repeat-x; width: 100%; }
+	.bcomment .dtop { height: 29px; }
+		.bcomment .dtop h3, .bcomment .dtop span { color: #707070 }
+			.bcomment .dtop h3 a { color: #79b61b; }
+	
+		.bcomment .dtop span { float: right; font-size: 0.85em; padding-right: 18px; background: url("http://mc-party.ru/templates/Pisces/images/speedbar.png") no-repeat 100% 50%; height: 16px; line-height: 16px; }
+
+		.cominfo { position: relative; margin-bottom: 12px; height: 30px; background: #f1f0ed url("http://mc-party.ru/templates/Pisces/images/cominfo.png") no-repeat 100% 0; }
+			.cominfo .dleft { width: 15px; height: 44px; position: absolute; top: -7px; left: -15px; background: url("http://mc-party.ru/templates/Pisces/images/comileft.png") no-repeat; }
+			
+			.cominfo ul { float: left; line-height: 29px; }
+				.cominfo ul li { background: url("http://mc-party.ru/templates/Pisces/images/cominfoli.png") no-repeat 0 52%; padding-left: 12px; color: #707070; float: left; height: 30px; margin-right: 15px; }
+	
+			.argreply a { text-align: center; text-shadow: 1px 1px 0 #383838; color: #e0e0e0; font-size: 0.85em; margin-left: 4px; float: right; width: 80px; height: 30px; line-height: 28px; background: url("http://mc-party.ru/templates/Pisces/images/argreply.png"); }
+				.argreply a:hover { text-shadow: 1px 1px 0 #3f3f28; color: #ffffa0; text-decoration: none; background-position: 0 -30px; }
+	
+			.comedit, .comedit ul li, .comedit ul li a { height: 21px; }
+				.comedit ul { float: right; }
+				.comedit ul li, .comedit ul li a { float: left; }
+				.comedit ul li { line-height: 21px; border-left: 1px solid #fff; }
+				.comedit ul li a { padding: 0 8px; background-color: #f1f0ed; }
+					.comedit ul li.selectmass { position: relative; background-color: #f1f0ed; width: 21px; }
+					.comedit ul li.selectmass input { position: absolute; top: 4px; left: 4px; margin: 0; }
+
+			.signature, .slink { color: #707070; }
+
+/*---forms---*/
+.baseform .heading { color: #707070; font-size: 1.4em; }
+.baseform, .mass_comments_action { margin: 0 15px 15px 15px; background-color: #f1f0ed; }
+.mass_comments_action { padding: 10px 13px; }
+	.baseform .dcont { padding: 13px 0; margin: 0 13px; }
+		.baseform .dcont .heading { margin: 0; }
+
+.tableform { width: 100%; }
+	.tableform td { }
+	.tableform td.label { width: 20%; vertical-align: top; padding-right: 0; font-weight: bold; }
+	.fieldsubmit, .tableform td { padding: 10px 13px; border-top: 1px solid #fff; }
+	.addnews { font-weight: bold; }
+	.impot { color: #d51e44; font-weight: normal; }
+	.checkbox { padding: 4px 0; line-height: 1em; }
+		.checkbox input { margin-top: -2px; vertical-align: middle; }
+
+.f_input { width: 300px; padding: 1px; }
+.f_textarea { width: 458px; }
+.fieldtr select, .textin, .f_textarea, .f_input, .xfields textarea, .xprofile textarea,
+.xfields input, .xprofile input, .xfields select, .xprofile select, .mass_comments_action select, .logform li.lfield input { padding: 2px; background: #fff url("http://mc-party.ru/templates/Pisces/images/fields.png") repeat-x; border: 1px solid #bcc0c2; }
+.f_textarea, .editor_button select { padding: 0; }
+.textin { padding: 2px; }
+
+/*---search---*/
+.searchstyle { width: 480px; }
+.search { font-size: 11px; }
+.searchtable fieldset legend { color: #404040; }
+	
+.searchitem { font-size: 0.85em; border-top: 1px solid #dfddd9; padding: 10px 0; }
+
+#searchuser, #searchinput { width: 90% !important; }
+
+/*---Userinfo---*/
+.userinfo { padding-left: 125px; }
+	.rateui { width: 85px; height: 17px; margin: 0 auto; padding-top: 4px; }
+	.userinfo .lcol { margin-left: -125px; width: 110px; padding-right: 15px; }
+		.userinfo .lcol .avatar { margin-bottom: 10px; padding: 4px; background-color: #fff; border: 1px solid #dfddd9; }
+			.userinfo .lcol .avatar img { width: 100px; }
+
+	.userinfo .rcol { width: 100%; }
+		.userinfo .rcol ul { list-style: none; margin-left: 0; }
+		.userinfo .rcol ul li { margin-bottom: 0.2em; } 
+
+		.ussep { padding-top: 12px; background: url("http://mc-party.ru/templates/Pisces/images/ussep.png") no-repeat; }
+
+/*---statistics---*/
+.statistics { overflow: hidden; margin: 0; padding: 0; }
+	.statistics ul.lcol { min-height: 71px; margin: 0 0 20px -1px; width: 33.3%; }
+	.statistics ul.lcol li { padding: 0 15px 0 0; margin-bottom: 2px; }
+
+/*---Постраничная навигация---*/
+.storenumber { font-weight: bold; }
+.basenavi { height: 39px; background: url("http://mc-party.ru/templates/Pisces/images/basenavi.png") no-repeat; }
+	.navigation, .navigation a, .navigation span { float: left; }
+		.navigation { font-size: 1.3em; padding: 7px 0 0 7px; }
+		.navigation a { text-decoration: none; }
+		.navigation a, .navigation span { padding: 0 4px; height: 22px; line-height: 21px; }
+		.navigation a, .navigation span.nav_ext { color: #2c2c2c; }
+			.navigation a:hover { color: #ffffa0; text-shadow: 0 1px 0 #3f3f28; background-color: #818bc1; }
+			.navigation span { color: #cccccc; }
+
+		.nextprev { float: right; width: 76px; }
+		.nextprev .thide { float: left; width: 38px; padding-top: 39px; background: url("http://mc-party.ru/templates/Pisces/images/basenavi.png") no-repeat 0 -39px; }
+		.nextprev a span { cursor: pointer; }
+
+		.nextprev span .pnext { background-position: -38px -39px; }
+		.nextprev a .pnext { background-position: -114px -39px; }
+
+		.nextprev span .pprev { background-position: 0 -39px; }
+		.nextprev a .pprev { background-position: -76px -39px; }
+		
+/*---Вид комментариев---*/
+.cell_coment { 
+  list-style: none;  
+  padding: 0px;  
+  margin-top: 5px; 
+} 
+
+.cell_coment li { 
+  position: relative; 
+  padding-left: 60px; 
+  width: 715px; 
+} 
+
+.coment_info { 
+  position: relative;  
+  text-align:justify; 
+  color: #555; 
+  background: #fff;  
+  border: 1px solid #C9C9C9; 
+  padding: 10px; 
+  margin-bottom: 30px; 
+} 
+
+.coment_os { 
+  overflow: hidden;  
+} 
+
+.coment_name, 
+.coment_nomer { 
+  padding-bottom: 5px;  
+  } 
+
+.coment_message { 
+  width: 100%; 
+  border-top: 1px solid #C9C9C9; 
+  border-bottom: 1px solid #C9C9C9; 
+  padding: 5px 0px; 
+  } 
+
+.coment_rating { 
+  padding-top: 5px;  
+  } 
+
+.coment_name, 
+.coment_nomer, 
+.coment_rating {  
+  font:10px Verdana,Arial,Helvetica, sans-serif; color:#999; 
+  font-weight: bold; 
+  } 
+
+.avatars a:hover,  
+.avatars { 
+  position: absolute; 
+  height: 45px; 
+  width: 45px;  
+  left: 0;  
+  } 
+
+.avatars img { 
+  height: 45px; 
+  width: 45px;  
+  border: none;  
+  } 
+
+.tip{ 
+  position: absolute; 
+  top: 10px; 
+  left: -7px;  
+  height: 13px; 
+  width: 9px; 
+  background: url("http://mc-party.ru/templates/Pisces/images/fon_ugol.png") no-repeat top left; 
+  } 
+
+.coment_info, 
+.avatar a:hover { 
+  box-shadow: 0px 0px 5px #999; 
+  -moz-box-shadow: 0px 0px 5px #999; 
+  -webkit-box-shadow: 0px 0px 5px #999;  
+  } 
+
+.left {float:left;} 
+.right {float:right;} 
+.clear {clear:left;} 
+
+.coment_rating a:hover img {filter: progid: DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity: 0.5; opacity: 0.5; filter: alpha(opacity=50);} 
+/* =================================================*/
+
+/* ==Плашка внизу:==*/
+#plashka {
+	list-style:none;
+	width:1050px;
+	height:20px;
+	/* Background color and gradients */
+	background: url("http://mc-party.ru/templates/Pisces/images/menu_fon.png");
+	}
