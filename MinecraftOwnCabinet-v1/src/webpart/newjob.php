@@ -1,8 +1,8 @@
 <?php
-$sdd_db_host='p78011.mysql.ihc.ru';// ваш адрес где находится, хостится ваша база данных
-$sdd_db_name='p78011_server';// Имя базы данных с которой вы хотите работать, так как их может быть множество
-$sdd_db_user='p78011_server';// логин доступ к базе данных
-$sdd_db_pass='mcpartyserv';// пароль доступа к базе данных
+$sdd_db_host='dbhost(orip)';// ваш адрес где находится, хостится ваша база данных
+$sdd_db_name='dbname';// Имя базы данных с которой вы хотите работать, так как их может быть множество
+$sdd_db_user='user';// логин доступ к базе данных
+$sdd_db_pass='yourpass';// пароль доступа к базе данных
 @mysql_connect($sdd_db_host,$sdd_db_user,$sdd_db_pass);// устанавливаем связь с сервером
 @mysql_select_db($sdd_db_name);// переключаемся на нужную нам базу данных
 $result=mysql_query("SELECT * FROM jobs WHERE username='$username' ");// делаем выборку из таблиц
